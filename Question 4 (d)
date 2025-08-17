@@ -7,7 +7,7 @@ bool comp(char a,char b){
     char lowB=tolower(b);
     if(lowA==lowB){
         if(a>b){
-            return true;
+            return true ;
         }
         else {
             return false;
@@ -30,7 +30,7 @@ int main() {
                 char d=c[j];
                 c[j]=c[j+1];
                 c[j+1]=d;
-                cout<<"swap "<<c[j]<<" from"<<c[j+1]<<endl;
+                
             }
         }
     
